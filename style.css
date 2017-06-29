@@ -12,3 +12,149 @@ colors:
     blue - #1fabe5
     dark blue - #046c97
 */
+
+body {
+  background-image: url("img/bg.jpg");
+  font-family: "Helvetica", "Arial", sans-serif;
+  line-height: 1.6em;
+}
+
+body>div {
+  background-color: white;
+  border: solid #ffd24a 2px;
+  margin-bottom: 10%;
+  margin-left: 10%;
+  margin-right: 10%;
+  margin-top: 2%;
+}
+
+#site_header {
+  background-color: #ff8523;
+  padding: 3em 2em;
+}
+
+#logo>img {
+  padding-bottom: 1em;
+}
+
+.main_navigation>a {
+  border: solid white 1.5px;
+  border-radius: .5em;
+  color: white;
+  margin-top: 20px;
+  padding: 1em 2em;
+  text-decoration: none;
+}
+
+#page_content {
+  display: block;
+  padding: 1.5em;
+}
+
+#page_content>section {
+  border-bottom: solid #dddddd 5px;
+  border-top: 10px;
+}
+
+
+
+h2, h3 {
+  color: #1fabe5;
+}
+
+h2 {
+  display: block;
+  font-size: 24px;
+  font-weight: bold;
+}
+
+p {
+  display: block;
+}
+
+h3 {
+  display: block;
+  font-size: 18px;
+  font-weight: bold;
+}
+
+ul {
+  display: block;
+  list-style-type: disc;
+}
+
+li {
+  font-weight: bold;
+}
+
+thead>tr {
+  background-color: #1fabe5;
+  border: solid #1fabe5 1px;
+  color: white;
+  padding: 10px;
+
+}
+
+.name {
+  background-color: #ff8523;
+  border-radius: 5px;
+  color: white;
+  padding: 1em;
+}
+
+table, tr, td {
+  border: .25px solid #046c97;
+  border-collapse: collapse;
+  padding: 10px;
+}
+
+td>img {
+  display: block;
+  height: 80%;
+  margin: auto;
+  width: 80%;
+}
+
+table {
+  border: solid #1fabe5 1px;
+  margin-bottom: 20px;
+}
+
+form {
+  background-color: #dddddd;
+  border-radius: 5px;
+  margin-bottom: 20px;
+  padding: 1em;
+}
+
+#bio {
+  border: 1px;
+  border-radius: 4px;
+  font-size: 14px;
+  margin-top: 1em;
+  outline: #1fabe5 solid 1px;
+  padding: 5px;
+}
+
+.city_container {
+  margin-bottom: 1em;
+  margin-top: 1em;
+}
+
+textarea {
+  width: 99%;
+}
+
+div>input {
+  padding: 10px;
+}
+
+#submit_button {
+  background-color: #1fabe5;
+  border: 0px;
+  border-radius: 5px;
+  color: white;
+  height: auto;
+  padding: 8px;
+  width: auto;
+}
